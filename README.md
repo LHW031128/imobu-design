@@ -4,7 +4,7 @@
 
 > 고객은 집 크기와 짐 사진으로 무료 견적을 신청하고, 관리자는 신청을 제휴 이사업체 한 곳에 배정해요. 업체가 수락하면 상담 · 예약 확정 · 이사 완료까지 한 흐름으로 이어집니다.
 
-### [▶ 프로토타입 보기](https://lhw031128.github.io/imobu-design/)
+### [▶ 프로토타입 보기](https://lhw031128.github.io/imobu-design/) · [Figma 디자인 파일](https://www.figma.com/design/XidN1v0Vr8o1ybhXEy1NUg)
 
 ![이모부 커버](docs/cover.png)
 
@@ -14,7 +14,7 @@
 | --- | --- |
 | 형태 | 모바일 앱 390 × 844 · 웹 1440 — 고객 · 이사업체 · 관리자 |
 | 주요 흐름 | 견적 신청 → 업체 배정 → 수락 · 상담 → 예약 확정 → 이사 완료 |
-| 작업 도구 | Figma Make, Claude 디자인 |
+| 작업 도구 | Figma Make, Claude 디자인, Figma (디자인 · 프로토타입) |
 | 화면 수 | 218개 (고객 앱 53개, 이사업체 앱 29개, 관리자 앱 35개, 고객 웹 33개, 이사업체 웹 30개, 관리자 웹 38개) |
 | 디자인 | [@LHW031128](https://github.com/LHW031128) |
 
@@ -107,6 +107,25 @@
 <tr><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=PA-Orders"><img src="docs/screens/PA-Orders.png" width="240" alt="이사업체 앱 · 오더"></a><br><sub>이사업체 앱 · 오더</sub></td><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=PA-DetailAccepted"><img src="docs/screens/PA-DetailAccepted.png" width="240" alt="이사업체 앱 · 오더 상세"></a><br><sub>이사업체 앱 · 오더 상세</sub></td><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=PA-Calendar"><img src="docs/screens/PA-Calendar.png" width="240" alt="이사업체 앱 · 일정"></a><br><sub>이사업체 앱 · 일정</sub></td></tr>
 <tr><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=AA-Dashboard"><img src="docs/screens/AA-Dashboard.png" width="240" alt="관리자 앱 · 대시보드"></a><br><sub>관리자 앱 · 대시보드</sub></td><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=AA-List"><img src="docs/screens/AA-List.png" width="240" alt="관리자 앱 · 신청·배정"></a><br><sub>관리자 앱 · 신청·배정</sub></td><td align="center" valign="top"><a href="https://lhw031128.github.io/imobu-design/view.html?s=AA-SheetAssign"><img src="docs/screens/AA-SheetAssign.png" width="240" alt="관리자 앱 · 업체 배정"></a><br><sub>관리자 앱 · 업체 배정</sub></td></tr>
 </table>
+
+## Figma 파일
+
+[Figma 디자인 파일](https://www.figma.com/design/XidN1v0Vr8o1ybhXEy1NUg)에 같은 218개 화면이 편집 가능한 레이어로 들어 있어요.
+
+| 페이지 | 내용 |
+| --- | --- |
+| 00. 커버 | 프로젝트 커버 |
+| 01. [앱] 고객 | 53개 화면 · 섹션 7개 |
+| 02. [앱] 이사업체 | 29개 화면 · 섹션 5개 |
+| 03. [앱] 관리자 | 35개 화면 · 섹션 6개 |
+| 04. [웹] 고객 | 33개 화면 · 섹션 4개 |
+| 05. [웹] 이사업체 | 30개 화면 · 섹션 5개 |
+| 06. [웹] 관리자 | 38개 화면 · 섹션 7개 |
+| 07. 토큰 · 공통 컴포넌트 | 아이콘 컴포넌트 138개 |
+
+- 섹션 이름은 위 화면 구성과 같아요 (예: 01 — 진입 · 로그인).
+- 프로토타입: 화면 사이 클릭 연결 1,843개. 섹션마다 시작점이 있어서 Figma의 ▶ 재생으로 바로 볼 수 있어요.
+- 글꼴: 기본은 Noto Sans KR이에요. Pretendard가 설치된 환경에서는 변수 `타이포그래피` 컬렉션의 `font/family`를 `Pretendard`로, `font/semibold`를 `SemiBold`로 바꾸면 전체 텍스트가 한 번에 바뀌어요.
 
 ## 둘러보는 방법
 
